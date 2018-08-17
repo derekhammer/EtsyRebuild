@@ -1,8 +1,15 @@
 .special{
   width: 500px;
-  float: right;
   border: solid;
   border-width: 0.8px;
   border-color: lightgray;
   margin: 8px;
+  float: right;
+}
+.right{
+position: relative;
+left: 600px;
+bottom: 100px;
+width: 500px;
+height: 70px;
 }
