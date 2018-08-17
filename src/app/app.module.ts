@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { SlideShowComponent } from './slide-show/slide-show.component';
 import { CatagoryComponent } from './catagory/catagory.component';
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CatagoryComponent } from './catagory/catagory.component';
     AppComponent,
     SearchBarComponent,
     SlideShowComponent,
-    CatagoryComponent
+    CatagoryComponent,
+    BottomBarComponent
   ],
   imports: [
     BrowserModule
