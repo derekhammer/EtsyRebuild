@@ -7,6 +7,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { SlideShowComponent } from './slide-show/slide-show.component';
 import { CatagoryComponent } from './catagory/catagory.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { BottomInfoComponent } from './bottom-info/bottom-info.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     SearchBarComponent,
     SlideShowComponent,
     CatagoryComponent,
-    BottomBarComponent
+    BottomBarComponent,
+    BottomInfoComponent
   ],
   imports: [
     BrowserModule
