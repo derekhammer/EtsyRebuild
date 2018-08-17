@@ -1,1 +1,8 @@
-
+.special{
+  width: 500px;
+  float: right;
+  border: solid;
+  border-width: 0.8px;
+  border-color: lightgray;
+  margin: 8px;
+}

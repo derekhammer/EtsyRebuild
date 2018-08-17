@@ -1,9 +1,12 @@
 button{
   padding: 0;
 border: none;
-width: 200px;
 }
-
-#border{
-  border-top: black, solid, 30px;
+.dropdown{
+  margin: 5px;
+}
+.row{
+  border-top: solid;
+  border-bottom: solid;
+  border-color: lightgray;
 }
