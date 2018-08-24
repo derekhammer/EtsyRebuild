@@ -1,3 +1,3 @@
 export class Product {
-  constructor (public name: string, public maker: string, public rating: number, public price: number, public picture: string) { }
+  constructor (public name: string, public maker: string, public rating: number, public price: number, public picture: string, public id: number) { }
 }

@@ -1,9 +1,9 @@
-<div class="row">
+
+  <div *ngFor="let product of products" (click)="goToDetailPage(product)">
+    <div class="card bg-faded">
 
 
-    <div *ngFor="let product of products">
-      
-      <img src="{{product.picture}}">
-        <h3>{{product.name}} by {{product.maker}}</h3>
-</div>
-</div>
+      <img src="./assets/{{product.picture}}.jpg">
+      <h3>{{product.name}} by {{product.maker}}</h3>
+  </div>
+    </div>
