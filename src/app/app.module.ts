@@ -9,6 +9,7 @@ import { CatagoryComponent } from './catagory/catagory.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 import { BottomInfoComponent } from './bottom-info/bottom-info.component';
 import { ProductComponent } from './product/product.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ProductComponent } from './product/product.component';
     CatagoryComponent,
     BottomBarComponent,
     BottomInfoComponent,
-    ProductComponent
+    ProductComponent,
+    ProductDetailComponent
   ],
   imports: [
     BrowserModule
