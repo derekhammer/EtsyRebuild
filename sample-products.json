@@ -1,9 +1,40 @@
-{"products": [{
-  "name": "dereks stuff",
-  "maker": "derek",
+{"products": [
+
+  {
+  "name": "Hand Carved Soapstone Bears",
+  "maker": "Derek",
   "rating": 4,
   "price": 10,
   "picture": "bears",
-  "id": 6
-  }]
+  "id": 1
+},{
+"name": "Designer Glasses",
+"maker": "Hisato",
+"rating": 9,
+"price": 300,
+"picture": "glasses",
+"id": 2
+},{
+"name": "Cat Food",
+"maker": "James",
+"rating": 1,
+"price": 1,
+"picture": "catfood",
+"id": 3
+},{
+"name": "Hand Knit Hat",
+"maker": "Brian",
+"rating": 7,
+"price": 40,
+"picture": "hat",
+"id": 4
+},{
+"name": "Pokemon Art",
+"maker": "Nick",
+"rating": 8,
+"price": 500,
+"picture": "pokemon",
+"id": 5
 }
+
+  ]}

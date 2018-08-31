@@ -1,1 +1,8 @@
-<h2>This product costs: ${{(productToDisplay | async)?.price}}</h2>
+<div class="card bg-faded product">
+  <div class="rightpic">
+    <img src="./assets/{{(productToDisplay | async)?.picture}}.jpg" alt="">
+  </div>
+<h2>{{(productToDisplay | async)?.name}}</h2>
+<h4>This product costs: ${{(productToDisplay | async)?.price}}</h4>
+<h4>This product has been rated {{(productToDisplay | async)?.rating}}/10 by Etsy Users</h4>
+</div>
