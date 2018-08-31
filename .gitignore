@@ -18,8 +18,7 @@
 .settings/
 *.sublime-workspace
 
-#Firebase credentials
-/src/app/api-keys.ts
+
 
 # IDE - VSCode
 .vscode/*
