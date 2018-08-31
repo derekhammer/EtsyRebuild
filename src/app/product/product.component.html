@@ -1,8 +1,5 @@
-
-  <div *ngFor="let product of products" (click)="goToDetailPage(product)">
+<div *ngFor="let product of products | async" (click)="goToDetailPage(product)" class="panel panel-default">
     <div class="card bg-faded product">
-
-
       <img src="./assets/{{product.picture}}.jpg">
       <h3>{{product.name}} by {{product.maker}}</h3>
   </div>

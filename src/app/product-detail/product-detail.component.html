@@ -1,1 +1,1 @@
-<h2>This product costs: ${{product.price}}</h2>
+<h2>This product costs: {{(productToDisplay | async)?.price}}</h2>
