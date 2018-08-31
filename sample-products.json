@@ -1,0 +1,9 @@
+{"products": [{
+  "name": "dereks stuff",
+  "maker": "derek",
+  "rating": 4,
+  "price": 10,
+  "picture": "bears",
+  "id": 6
+  }]
+}
